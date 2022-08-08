@@ -10,6 +10,7 @@ function onInputClick(event) {
         input.classList.add('valid');
         input.classList.remove('invalid');
     } else {
+        input.classList.remove('valid');
         input.classList.add('invalid');
     }
 }
